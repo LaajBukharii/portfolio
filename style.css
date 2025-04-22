@@ -237,7 +237,7 @@ marquee span{
 }
 .about p{
     font-size: 0.85rem;
-    
+
 }
 .about li{
     font-size: 0.85rem;
@@ -259,5 +259,32 @@ marquee span{
 .contact{
     height: 60vh;
     width: 100%;
-    background-color: black;
+   
+    background-color: rgb(165, 165, 0);
+    display: flex;
 }
+.forum{
+    height: 50vh;
+    width: 100%;
+    padding: 40px;
+    margin: 40px 100px;
+    background-color: white;
+}
+.ids{
+    height: 50vh;
+    width: 100%;
+    padding: 40px;
+    margin: 40px 100px;
+    
+   
+    background-color: #908ce2;  
+}
+.phone{
+    height: 40vh;
+    width: 90%;
+    padding:  20px 0px;
+}
+.phone p{
+    font-size: 0.85rem;
+}
+
