@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+html{
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    /* background-color: #1C1C1C; */
+    background-color:  black;
+    background-size: cover;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+}
+.logo img{
+    height: 70px;
+    display: flex;
+    justify-content: start;
+}
+.header2 a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    width: fit-content;
+    font-size: 1rem;
+    padding: 10px;
+    /* padding-right: 30px; */
+    margin: 0px 10px;
+ 
+}
+
+.border :hover{
+    background-color:#F9F7F1;
+    color: #2E2E2E;
+    font-weight: 500;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #FFB6B9;
+    color: #2E2E2E;
+    font-size: x-large;
+    height: 80vh;
+    width: 100%
+    
+    
+}
+.btn:hover{
+background-color: white;
+color: #2E2E2E;
+}
+
+.hero-section2{
+    height: 40vh;
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+    padding-top: 40px;
+    
+}
+.hero-section2 h1{
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+.hero-section2 h6{
+   padding-top: 10px;
+   font-weight: 500;
+}
+.hero-section2 button{
+    background-color: #2E2E2E;
+    color: aliceblue;
+    margin: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    border: 2px solid #2E2E2E;
+    text-align: center;
+    font-weight: 700;
+}
+.content{
+    height: 60vh;
+    width: 100%;
+    background-color:#FFB6B9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  
+}
+.box{
+    height: 45vh;
+    width: 80%;
+    background-color: beige ;
+    border-radius: 20px;
+    padding: 20px 0px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #FFB6B9;
+   
+
+}
+.box1{
+   height: 20vh;
+   width: 200px;
+   padding: 20px 0px 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-weight: bolder;
+   font-size: 4.5em;
+   background-color: #FFB6B9;
+   border-radius: 10px;
+}
+.box1 img{
+    height: 120px;
+    width: 120px;
+    padding-top: 2px;
+    mix-blend-mode:darken
+    
+
+
+}
+.box2{
+    height: 20vh;
+    width:200px;
+    padding: 20px 0px 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 5.5em;
+    background-color: #908ce2 ;
+    border-radius: 10px;
+ }
+ .box2 img{
+    height: 100px;
+    width: 100px;
+
+
+    
+    mix-blend-mode:darken
+
+}
+ .box3{
+    height: 20vh;
+    width: 200px;
+    padding: 20px 0px 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fae078;
+    border-radius: 10px;
+ }
+ .box3 img{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode:darken
+
+}
+ .box4{
+    height: 20vh;
+    width: 200px;
+    padding: 20px 0px 15px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    background-color: pink;
+    border-radius: 10px;
+ }
+ .box4 img{
+    height: 100px;
+    width: 180px;
+    mix-blend-mode:darken
+    
+
+}
+ marquee{
+    background-color: #1C1C1C;
+    padding: 10px 10px;
+    font-size: x-large;
+    height: fit-content;
+    font-weight: bold;
+    color: white;
+}
+marquee span{
+    margin: 8px;
+}
+.about-section{
+   height: 70vh;
+   width: 100%;
+   background-color: #1C1C1C;
+   display: flex;
+}
+.about{
+    height: 70vh;
+    width: 60%;
+    background-color: #FFB6B9;
+    color: #2E2E2E;
+    padding: 50px 100px;   
+}
+.content2{
+    height: 50vh;
+    width: 90%;
+
+}
+.line{
+    border-left: 2px solid #2E2E2E;
+    height: 380px;
+    padding:  5px 40px;
+}
+.about p{
+    font-size: 0.85rem;
+}
+.about li{
+    font-size: 0.85rem;
+}
+.profile{
+    height: 70vh;
+    width: 40%;
+    background-color: #FFB6B9;
+}
+.pic{
+    height: 350px;
+    width: 350px;
+    margin: 90px 90px;
+    border: 2px solid #FFB6B9;
+    background-image: url(picc.jpg);
+    background-position: center;
+    border-radius: 50%;
+}
+.contact{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+}
